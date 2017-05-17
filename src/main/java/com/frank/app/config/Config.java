@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ImportResource;
  *
  */
 @Configuration
-@ImportResource(locations = { "classpath:appContext.xml" })
+@ImportResource(locations = { "classpath:spring-${spring.profiles.active}/appContext.xml" })
 public class Config {
 
 }
