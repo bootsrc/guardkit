@@ -19,4 +19,4 @@ Hello guardkit!
 >>>StatLogRollingTask isRunning>>>
 ```
 ## 代码解析
-StatLogController中变量rollerThreadPool实现了一个线程池这个线程池里永远只有一个线程在持续运行着，类型是<code><StatLogRollingTask/code>
+StatLogController中变量rollerThreadPool实现了一个线程池这个线程池里永远只有一个线程在持续运行着，类型是<code>StatLogRollingTask</code>
